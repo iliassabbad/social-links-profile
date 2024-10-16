@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: hsl(0, 0%, 8%);
+    color: white;
+    font-family: 'Inter';
+}
+p{
+    font-size: 14px;
+}
+
+.container{
+    width: 350px;
+    height: 520px;
+    background: hsl(0, 0%, 12%);
+    border-radius: 15px;
+    margin: 3rem auto 0;
+    text-align: center;
+}
+
+
+.profile-info img{
+    width: 70px;
+    border-radius: 35px;
+    margin-top: 2rem;
+    margin-bottom: 15px;
+}
+
+.name{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.city{
+    color: hsl(75, 94%, 57%);
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.job{
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+
+.profile-links button{
+    display: block;
+    margin: 0 auto 15px;
+    width: 80%;
+    height: 35px;
+    font-size: 14px;
+    font-weight: 600;
+    background: hsl(0, 0%, 20%);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;  
+}
+
+.profile-links button:hover{
+    background: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+    transition: background 1s;
+}
+
+
+@media screen and (max-width: 375px) {
+    .container{
+        width: 320px;
+        height: 520px;
+        margin: 5rem auto 0;
+    }
+}
+
+
